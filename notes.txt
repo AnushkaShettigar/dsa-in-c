@@ -1,0 +1,95 @@
+c programming notes
+
+variables
+    is the name of a memory location that stores some data
+    RULES
+        a. variables are case sensitive
+        b. 1st character is alphabet or _
+        c. no comma or blankspace
+        d. no other symbol than _
+
+    data types is the kind of data u are storing in the variable
+        char
+        int
+        float
+        double
+
+constants
+    values that dont change (fixed)
+    TYPES
+        integer constants
+            1, 2, 3, 0, -1, -2
+        real constants
+            1.0, 2.0, 3.14
+        character constants
+            'a', 'A', '#'
+
+keywords
+    reserved words that have special meaning to the compliler
+    32 such keywords in c
+        auto 
+        break
+        case
+        char
+        continue
+        do
+        default
+        const
+        double
+        else
+        enum
+        extern
+        for 
+        if
+        goto
+        float
+        intlong
+        register
+        return
+        signed
+        static
+        sizeof
+        short
+        struct
+        switch
+        typedef
+        union
+        void
+        while
+        volatile
+        unsigned
+
+program structure
+    #include<stdio.h>
+    this is called the preprocessor directive
+    int main(){this is the main ffunction which is executed first
+        main work is to be typed here
+    }
+    semicolon needed
+    all instructions are case sensitive
+
+comments
+    these lines are not part of the code
+    // for single line
+    /*  */ for multiple lines
+
+for output
+    newline \n
+    to print integer
+    printf("age is %d", age)
+
+    to print character
+    printf("character is %c", char)
+
+    to print float
+    printf("pi is %f", float)
+     
+    all these are called format specifiers
+
+for input
+    scanf("%d", &age)
+
+    d tells the compilier that its a int
+    age is the address of the integer
+
+    compilation: a computer program that translates c code into mahcine code
