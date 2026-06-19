@@ -6,10 +6,11 @@
     int num, sum = 0, i;
 
     for (i=0; i<10; i++){
-        printf("enter number %d:", i);
+        printf("enter number %d:", i+1);
         scanf("%d", &num);
         sum += num;
     }
     printf("the sum of the values is %d", sum);
     getch();
+    return 0;
  }
