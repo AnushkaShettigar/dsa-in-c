@@ -1,4 +1,8 @@
 c programming notes
+to run the code
+    save
+    gcc hello.c -o hello
+    .\hello.exe
 
 variables
     is the name of a memory location that stores some data
@@ -92,4 +96,4 @@ for input
     d tells the compilier that its a int
     age is the address of the integer
 
-    compilation: a computer program that translates c code into mahcine code
+    compilation: a computer program that translates c code into machine code
