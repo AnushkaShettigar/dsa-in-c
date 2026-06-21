@@ -97,3 +97,53 @@ for input
     age is the address of the integer
 
     compilation: a computer program that translates c code into machine code
+
+instructions in c
+    these are statements in a program
+    theres type declaration instructions,
+        declare var before using it
+    arithemtic instruction,
+        single variable on lhs
+        op1 operator op2
+        pow(x,y), for x to the power of y
+    control instructions.
+        multiple types of conversion
+        int operand float is float
+        types of conversion is implicit and explicit
+        to convert double into int
+            int a = (int) 1.99999; // this will give 1
+    operator precendence
+        * / %
+        + -
+        =
+        if same precendence then left to right
+    control instructions: used to determine the flow of the program
+        sequence control
+        decision control
+        loop control
+        case control
+    
+operators
+    priority
+        !
+        */%
+        +-
+        <, <=,>,>=
+        ==, !=
+        &&
+        ||
+        =
+    relational operators
+        ==, >, >=, <=, !=
+        true gives 1
+        false gives 0
+    arithemtic operator
+        /*-+
+    logical operator
+        &&AND, ||OR, !NOT
+    bitwise operator
+
+    assignment operator
+        +=, =, %=
+    ternary operator
+

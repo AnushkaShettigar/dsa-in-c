@@ -9,5 +9,4 @@ int main(){
     a = pi*r*r;
     printf("the perimeter of the circle is %.2f\n the area of the circle is %.2f", p, a);
     return 0;
-
 }
