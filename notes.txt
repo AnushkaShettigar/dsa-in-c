@@ -146,6 +146,7 @@ operators
     assignment operator
         +=, =, %=
     ternary operator
+        condition? dosmthg if true: do smthg iffalse;
 
 conditional statements
     if else
@@ -158,3 +159,16 @@ conditional statements
 
         if only one statement then no need for curcly braces
     switch
+        switch(){
+            case 1:
+                //do something
+                break;
+            case 2:
+                //do something
+                break;
+            case 3:
+                //do something
+                break;
+            default:
+                //do something
+        }
