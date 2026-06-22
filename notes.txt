@@ -147,3 +147,14 @@ operators
         +=, =, %=
     ternary operator
 
+conditional statements
+    if else
+        if (condition){
+            work
+        }
+        else{
+            work
+        }   
+
+        if only one statement then no need for curcly braces
+    switch
